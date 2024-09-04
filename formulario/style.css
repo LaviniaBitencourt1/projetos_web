@@ -1,0 +1,35 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 179, 233);
+    min-height: 100vh;
+}
+
+form {
+    background-color: #a46cd1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 20, 0, 0.1);
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #540468;
+}
+textarea{
+    height: 120px;
+}
+button{
+    background-color: #cca2d6;
+    color: #fff
+    padding 12px, 20px; /* 12px altura e 20px laterais*/
+    border:none; /*sem borda*/
+    cursor:pointer; /*altera o cursor do mouse*/
+}
